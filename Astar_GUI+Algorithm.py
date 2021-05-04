@@ -199,7 +199,7 @@ def algorithm(win, grid, start, end):
             last_node.make_closed()
             last_node.draw(win)
 
-        pg.time.Clock().tick(100)
+        pg.time.Clock().tick(1000)
 
     return "Cannot find path"
 
